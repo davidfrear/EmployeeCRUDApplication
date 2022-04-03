@@ -1,0 +1,28 @@
+The database is an important part of any application. Without a database, an application is just like a human without a brain.
+One of the most basic scenarios in real life would be a simple CRUD app that would interact with the database and help us to
+store and manipulate data.
+
+CRUD = Create, Read, Update, Delete
+
+A CRUD application is one that uses a GUI to get data in and out of a database
+
+In this project, I will create an Employee CRUD Application which will have the following functionalities,
+- Insert and store employee details such as Employee ID, Employee Name, and Employee Department in a database using MySQL
+- Perform various other operations such as fetching data, deleting data, updating existing data, and more
+- Showing all the available data in the database
+- A simple GUI interface to perform all the above operations
+
+In this project I will be using all the major python programming concepts such as; lists, dictionaries, strings, loops,
+conditionals, and more.
+Also implementing the concepts such as GUI using Tkinter and Database connectivity.
+
+The first step is to create a simple GUI that will help me interact with the application and perform operations over the database.
+The GUI would have the following options to Insert,Update,Fetch, and Delete the Data. Also, we would have a Reset option which will reset all the fields.
+I will add a window to show the data in real-time whenever a operation is performed.
+
+Starting on MySQL first and create the required Employee database and the table to store the employee details.
+Therefore, I will create an Employee database with empDetails table in it. Which will hold the following fields;
+- empID - this field will store the employee ID and will be of INT type.
+- empName - this field will store the employee name and will be of VARCHAR type
+- empDept - this field will store the employee department and will be of VARCHAR type
+
